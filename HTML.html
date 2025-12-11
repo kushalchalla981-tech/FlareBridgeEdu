@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FlareBridgeEdu — Connecting Higher Education to Flare</title>
+  <meta name="description" content="FlareBridgeEdu: a project bridging higher education with the Flare Network — scholarships, resources and educational tools." />
+  <link rel="stylesheet" href="Body.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="#" aria-label="FlareBridgeEdu home">FlareBridgeEdu</a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-menu">Menu</button>
+        <ul id="main-menu" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1>Bridge Higher Education to the Flare Ecosystem</h1>
+        <p class="lead">Scholarships, learning resources and developer tools that make Web3 education accessible.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#features">Explore Features</a>
+          <a class="btn ghost" href="#resources">View Resources</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>FlareBridgeEdu is a lightweight front-end demo which demonstrates connecting educational workflows to the Flare network. This repo contains a simple static front-end: HTML, CSS and JavaScript. It is designed for learning and demo purposes.</p>
+    </section>
+
+    <section id="features" class="container section grid-cards">
+      <article class="card">
+        <h3>Scholarship Listings</h3>
+        <p>Display scholarship opportunities, filter by eligibility and share them with students.</p>
+      </article>
+      <article class="card">
+        <h3>Wallet Integration</h3>
+        <p>Demo interaction with Web3 wallets (read-only demo for educational purposes).</p>
+      </article>
+      <article class="card">
+        <h3>Resources</h3>
+        <p>Links to Flare tools, docs and testnets for students and developers.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Get in touch</h2>
+      <form id="contact-form" class="form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required minlength="2" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn primary">Send message</button>
+        <div id="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 FlareBridgeEdu — Built for education. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script defer src="JAva.js"></script>
+</body>
+</html>
